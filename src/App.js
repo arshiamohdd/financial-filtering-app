@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&apikey=oBRQKXkot1Wb0sIVVob7S0Rz6DqMMucy"
+      "https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&apikey="
     )
       .then((response) => response.json())
       .then((data) => {
